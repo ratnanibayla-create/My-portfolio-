@@ -47,6 +47,10 @@ body::before {
   margin-bottom: 8px;
 }
 
+.quiz-page .center-card h1 {
+  color: #8c3b67;
+}
+
 .full-page-card {
   position: absolute;
   inset: 0;
@@ -158,6 +162,14 @@ body::before {
   color: #8c3b67;
   font-size: 1.3rem;
   letter-spacing: 2px;
+}
+
+.subtitle {
+  margin-top: 8px;
+  color: #8c3b67;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 .page-link {
