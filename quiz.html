@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="paper paper-top-left"></div>
+  <div class="paper paper-bottom-right"></div>
+
+  <div class="bracelet bracelet-top" aria-hidden="true">
+    <span class="bead">♡</span>
+    <span class="bead letter">Q</span>
+    <span class="bead letter">U</span>
+    <span class="bead letter">I</span>
+    <span class="bead letter">Z</span>
+    <span class="bead">☆</span>
+  </div>
+
+  <div class="bracelet bracelet-bottom" aria-hidden="true">
+    <span class="bead">✧</span>
+    <span class="bead letter">F</span>
+    <span class="bead letter">U</span>
+    <span class="bead letter">N</span>
+    <span class="bead letter">♡</span>
+  </div>
+
+  <main class="center-card">
+    <h1>Quiz</h1>
+    <p>Welcome to the quiz page!</p>
+    <div class="button-row">
+      <a class="page-link" href="index.html">Home</a>
+      <a class="page-link" href="second.html">About Me & Favorites</a>
+      <a class="page-link" href="about-thefunwebsite.html">About thefunwebsite.com</a>
+    </div>
+  </main>
+
+  <div class="audio-player" aria-label="Background music controls">
+    <audio id="bg-audio" loop preload="auto" controls>
+      <source src="Getaway Car - YouTube - Google Chrome 2026-06-17 14-11-07.mp4" type="audio/mp4" />
+      Your browser does not support the audio element.
+    </audio>
+    <button id="audio-toggle" type="button" aria-pressed="false">Play/Pause Getaway Car</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
